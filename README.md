@@ -62,10 +62,10 @@ Memvisualisasikan proprosi apartemen berdasarkan karakteristik yang dimiliki, se
 - Model terbaik adalah XGB Regressor Tuning with TTR
 - Model dapat memprediksi harga apartemen +- 31572 won atau error 16.7% dari harga aslinya.
 - Feature importance = HallwayType, N_FacilitiesInApt, N_FacilitieseNearBy(ETC), Size(sqf), YearBuilt
-- Terdapat limitasi model berdasrakan statistika deskriptif serta sebaran data residual dan prediksi
+- Terdapat limitasi model berdasarkan statistika deskriptif serta sebaran data residual dan prediksi
 
 Rekomendasi model:
-- Mencari fitur yang lebih menggabarkan harga, sehingga tidak terindikasi sebagai data duplikat
+- Mencari fitur yang lebih menggambarkan harga, sehingga tidak terindikasi sebagai data duplikat
 - Pemodelan dan hyperparameter tuning ulang berdasarkan feature imporatance
 - Mencari data apartemen mahal, sehingga target variabel tidak skewness
 - Melakukan update data
