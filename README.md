@@ -36,7 +36,7 @@ Sebagai perusahaan properti kondisi tersebut dapat menjadi peluang bisnis. Perus
 
 - Setiap baris merepresentasikan unit apartemen yang ada
 - Terdapat temuan proporsi data duplikat sebanyak 34%
-- Hanya 2 variabel numerik yang meimiliki outlier dengan proporsi yang sedikit
+- Hanya 2 variabel numerik yang memiliki outlier dengan proporsi yang sedikit
 - Seluruh variabel numerik tidak berdistribusi normal
 - Terdapat masalah multikolinearitas
 
