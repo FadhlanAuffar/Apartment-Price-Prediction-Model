@@ -3,6 +3,9 @@ import pandas as pd
 import pickle
 from PIL import Image
 
+from sklearn.preprocessing import OneHotEncoder
+import category_encoders as ce
+from sklearn.compose import ColumnTransformer
 
 st.image(Image.open('Fig 1.jpeg'))
 
