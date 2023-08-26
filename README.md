@@ -1,7 +1,7 @@
 # Capstone-Project-M3
 Capstone project ini bertujuan untuk membuat model prediksi harga apartemen Daegu
 
-- Presentasi -> [link](https://drive.google.com/drive/folders/1SxeOOUvlzRKSrtgGfH2vB0ogUR_-js4f?usp=sharing)
+- Presentasi -> [link](https://drive.google.com/drive/folders/1Ni71YrJY8iD9mTspXsFcN4phcT9Fio6V?usp=sharing)
 
 # Business Understanding:
 Peningkatan kebutuhan tempat tinggal di kota metropolitan kadang menjadi masalah, karena banyak individu yang beraktivitas di kota metropolitan dan membutuhkan tempat tinggal di sekitar kota untuk kemudahan beraktivitas.
