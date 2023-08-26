@@ -47,7 +47,7 @@ Sebagai perusahaan properti kondisi tersebut dapat menjadi peluang bisnis. Perus
 - Encoding : Ordinal dan one hot encoding
 
 # Data Analysis
-Memvisualisasikan proprosi apartemen berdasarkan karakteristik yang dimiliki, serta mencari jenis apartemen yang harganya paling mahal dan ukurannya besar
+Memvisualisasikan proporsi apartemen berdasarkan karakteristik yang dimiliki, serta mencari jenis apartemen yang harganya paling mahal dan ukurannya besar
 
 # Modeling & Evaluation
 - Menggunakan 9 algoritma yaitu linreg, lasso, ridge, knn, decision tree, random forest, SVR, gradient boosting serta XGB
