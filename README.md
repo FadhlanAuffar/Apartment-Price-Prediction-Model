@@ -1,7 +1,7 @@
 # Capstone-Project-M3
 Capstone project ini bertujuan untuk membuat model prediksi harga apartemen Daegu
 
-- **Model Deployment Streamlit** -> [link](https://capstone-project-m3-cixmbn7dmsfmgpud6ytz5x.streamlit.app/)
+- **Model Deployment Streamlit** -> [link](https://capstone-project-m3-avrexapmfqkq8vzdlqzqtu.streamlit.app/)
 - **Presentasi** -> [link](https://drive.google.com/drive/folders/1Ni71YrJY8iD9mTspXsFcN4phcT9Fio6V?usp=sharing)
 
 # Business Understanding:
