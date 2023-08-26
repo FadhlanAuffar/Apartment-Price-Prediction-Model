@@ -39,7 +39,7 @@ st.write('---')
 
 N_FacilitiesNearBy = st.number_input('4. Masukan jumlah fasilitas terdekat', value = 0, step=1)
 
-if N_FacilitiesNearBy > 5:
+if N_FacilitiesNearBy > 5 or N_FacilitiesNearBy < 0:
     st.write('Masukan rentang nilai dari 0-5, apabila nilai di luar rentang hasil prediksi menjadi tidak akurat')
     st.write('---')
 else :
@@ -87,7 +87,11 @@ st.dataframe(data=rekap)
 
 st.title('C. Prediksi')
 if st.button('Prediksi harga apartemen'):
-    hasil = st.session_state['model'].predict(rekap)
-    st.write(f'Hasil prediksi harga apartemen adalah {round(hasil[0])} won')
+
+    if N_FacilitiesNearBy < 0 or N_FacilitiesInApt < 0 or Size < 0:
+        st.write('Nilai fitur tidak bisa negatif')
+    else:
+        hasil = st.session_state['model'].predict(rekap)
+        st.write(f'Hasil prediksi harga apartemen adalah {round(hasil[0])} won')
 else:
     st.write('Masukan nilai fitur apartemen')
